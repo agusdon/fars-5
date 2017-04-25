@@ -20,7 +20,7 @@ fars_read <- function(filename) {
   })
   dplyr::tbl_df(data)
 }
-
+ 
 #' Creates a new filename
 #' 
 #' This function makes a string representing a filename based upon the year entered
