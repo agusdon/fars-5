@@ -1,13 +1,20 @@
 Package: fars
-Title: Handles FARS data
-Version: 0.0.0.9000
-Authors@R: person("Aaron", "Gusdon", email = "agusdon@gmail.com", role = c("aut", "cre"))
-Description: Handles FARS data
-Depends: R (>= 3.2.4)
-License: What license is it under?
+Type: Package
+Title: Package for FARS accident data analysis
+Version: 0.1.0
+Author: Aaron Gusdon [aut,cre]
+Maintainer: Aaron Gusdon <agusdon@gmail.com>
+Description: This package contains functions suitable for analyzing data from
+    FARS system (http://www-fars.nhtsa.dot.gov/).
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 5.0.1
+Imports: dplyr,
+         maps,
+         readr,
+         tidyr
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
